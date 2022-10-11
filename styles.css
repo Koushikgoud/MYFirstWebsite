@@ -22,8 +22,6 @@ body {
 .Hobbies{
   background-color: #e7d9ea;
 
-
-
 }
 
 .hobbies{
@@ -37,10 +35,6 @@ body {
   background-color: #66bfbf;
   margin-top: 0;
   padding: 40px 0 20px;
-  
-
-
-
 
 }
 
@@ -62,7 +56,7 @@ body {
   margin-top: 15px;
 }
 
-.computer-networking {
+.cloudComputing {
   height: 200px;
   width: 50%;
   float: left;
@@ -73,6 +67,14 @@ body {
 .web-designing{
   float: right;
   margin: 50px auto auto 30px;
+
+}
+
+.informationRetrieval{
+  float: right;
+  margin: 50px auto auto 30px;
+  height: 200px;
+  width: 40%;
 }
 
 
@@ -100,13 +102,13 @@ margin: auto 150px;
 
 
 
-
-
 .giphy:hover{
   animation-name: rotate;
   animation-duration: 2.5s;
 
 }
+
+
 @keyframes rotate {
   0%{
     transform: rotate(0);
